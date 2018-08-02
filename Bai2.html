@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bài 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="container-fluid>
+        <div class="panel-group">
+            <!-- Dòng 1 -->
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="well well-sm" style="background-color:darkslategray ;height:50px">
+                        <div class="col-lg-8"><strong><font size="4" color="white">Tin thể thao Arsenal</font></strong></div>
+                        <div class="col-lg-4">
+                            <div class="col-lg-3"><a href="http://www.tinthethao.com.vn/bong-da-quoc-te/" target="_blank"><strong><font size="2" color="white">Quốc Tế</font></strong></a></div>
+                            <div class="col-lg-3"><a href="http://www.tinthethao.com.vn/bong-da-viet-nam/" target="_blank"><strong><font size="2" color="white">Việt Nam</font></strong></a></div>
+                            <div class="col-lg-3"><a href="http://www.tinthethao.com.vn/hau-truong-the-thao/" target="_blank"><strong><font size="2" color="white">Bên Lề</font></strong></a></div>
+                            <div class="col-lg-3"><a href="http://www.tinthethao.com.vn/video/" target="_blank"><strong><font size="2" color="white">Video</font></strong></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Dòng 2 -->
+        <div class="panel-group">
+            <div class="row">
+                <div class="col-lg-8 ">
+                    <div class="panel" style="height:390px">
+                        <div>
+                            <h4><strong><font size="5">Cầu thủ nổi bật trên thị trường chuyển nhượng</font></strong></h4>
+                            <div class="slideshow-container">
+                                <div class="mySlides fade">
+                                    <div class="numbertext">1/3</div>
+                                    <img src="http://static.bongda24h.vn/medias/standard/2018/1/7/nhung-con-so-biet-noi-xung-quanh-qua-sieu-bom-tan-coutinho.jpg" style="width:749px; height:350px">
+                                    <div class="text">philippe coutinho</div>
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">2/3</div>
+                                    <img src="https://pbs.twimg.com/media/C2cBHbrXgAAhaYm.jpg" style="width:749px; height:350px">
+                                    <div class="text">antoine griezmann</div>
+                                </div>
+
+                                <div class="mySlides fade">
+                                    <div class="numbertext">3/3</div>
+                                    <img src="http://streaming1.danviet.vn/upload/1-2018/images/2018-01-05/alexis-sanchez-1-1515149448-width500height333.jpg" style="width:749px; height:350px">
+                                    <div class="text">alexis sanchez</div>
+                                </div>
+
+                            </div>
+                            <br/>
+
+                            <div style="text-align:center">
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                                <span class="dot"></span>
+                            </div>
+
+                            <script>
+                                var slideIndex = 0;
+                                showSlides();
+
+                                function showSlides() {
+                                    var i;
+                                    var slides = document.getElementsByClassName("mySlides");
+                                    var dots = document.getElementsByClassName("dot");
+                                    for (i = 0; i < slides.length; i++) {
+                                        slides[i].style.display = "none";
+                                    }
+                                    slideIndex++;
+                                    if (slideIndex > slides.length) { slideIndex = 1 }
+                                    for (i = 0; i < dots.length; i++) {
+                                        dots[i].className = dots[i].className.replace(" active", "");
+                                    }
+                                    slides[slideIndex - 1].style.display = "block";
+                                    dots[slideIndex - 1].className += " active";
+                                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ">
+                    <div class="panel-group">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="panel" style="height:auto">
+                                    <div style="font-size:20px;text-align:center">
+                                        <form action="/action_page.php">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Search" name="search">
+                                                <div class="input-group-btn">
+                                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                                </div>
+                                            </div>
+                                        </form><br /><br /><br />
+                                        <p style="font-size:35px"><strong>Get In Touch!</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><br /><br /><br /><br /><br />
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="panel-group">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="well well-sm" style="height:45px; background-color:cornflowerblue"><div style="font-size:20px;text-align:center">Call to Action</div></div>
+                                        </div>
+                                    </div><br />
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="well well-sm" style="height:45px; background-color:cornflowerblue"><div style="font-size:20px;text-align:center">Call to Action</div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><br />
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+            <!-- Dòng 3 -->
+        <div class="panel-group">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel" style="height:640px; border:2px groove">
+                        <div>
+                            <img src="https://www.rushhourdaily.com/wp-content/uploads/2017/08/Arsenal-FC-v-PFC-Ludogorets-Razgrad-UEFA-Champions-League.jpg" style="width:357px; height:250px">
+                        </div><br />
+                        <div class="well well-sm">
+                            <div><h3 style="text-align:justify"><strong>Header</strong></h3></div>
+                            <div>
+                                <p style="text-align:justify">
+                                    Arsenal Football Club is a professional football club based in Highbury, London, England, that plays in the Premier League,
+                                    the top flight of English football. The club has won 13 League titles, a record 13 FA Cups, two League Cups, the League Centenary Trophy,
+                                    15 FA Community Shields, one UEFA Cup Winners' Cup and one Inter-Cities Fairs Cup. It has won the second-most top flight matches in English football history,
+                                    and is the only English club to go a 38-match league season unbeaten.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="panel-group">
+                                <div class="col-lg-4">
+                                    <div class="panel" style="background-color:cornflowerblue"><a href="https://www.youtube.com/watch?v=NIuw8jKys0c&t=138s" target="_blank"><div style="text-align:center"><font color="black">Youtube</font></div></a></div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="panel" style="background-color:cornflowerblue"><a href="https://www.facebook.com/AFCVN/" target="_blank"><div style="text-align:center"><font color="black">Facebook</font></div></a></div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="panel" style="background-color:cornflowerblue"><a href="https://vi.wikipedia.org/wiki/Arsenal_F.C." target="_blank"><div style="text-align:center"><font color="black">Wiki</font></div></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="panel-group">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="panel-group" style="height:270px; border:15px groove">
+                                    <div class="col-lg-3">
+                                        <div class="panel" style="height:240px">
+                                            <p><img src="http://www3.pictures.zimbio.com/gi/Alexis+Sanchez+Arsenal+v+Benfica+H3W8m2jXTial.jpg" style="width:147px; height:200px"></p>
+                                            <p style="text-align:center"><strong>Alexis Sanchez</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="panel" style="height:240px">
+                                            <p><img src="https://static.foba1.com/bilder/spieler/gross/43165.jpg" style="width:147px; height:200px"></p>
+                                            <p style="text-align:center"><strong>Mesut Ozil</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="panel" style="height:240px">
+                                            <img src="https://cdn.images.dailystar.co.uk/dynamic/58/photos/267000/Alexandre-Lacazette-Arsenal-1043267.jpg" style="width:147px; height:200px">
+                                            <p style="text-align:center"><strong>Alexandre Lacazette</strong></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="panel" style="height:240px">
+                                            <p><img src="http://www1.pictures.zimbio.com/gi/Granit+Xhaka+Arsenal+v+Brighton+Hove+Albion+XBluPlX0SLQl.jpg" style="width:147px; height:200px"></p>
+                                            <p style="text-align:center"><strong>Granit Xhaka</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><br />
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="well well-sm boder" style="height:auto">
+                                    <h3 style="text-align:justify">Sub Header</h3>
+                                    <p style="text-align:justify">Arsenal fans often refer to themselves as "Gooners", the name derived from the team's nickname, "The Gunners".</p>
+                                    <div class="panel" style="background-color:cornflowerblue; width:70px; height:auto"><a href="https://en.wikipedia.org/wiki/Arsenal_F.C._supporters" target="_blank"><div style="text-align:center"><font color="black">Fan Club</font></div></a></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="well well-sm boder" style="height:auto">
+                                    <h3 style="text-align:justify">Sub Header</h3>
+                                    <p style="text-align:justify">The 2017–18 season is Arsenal's 92nd consecutive season in the top flight of English football. the Europa League.</p>
+                                    <div class="panel" style="background-color:cornflowerblue; width:150px; height:auto"><a href="https://en.wikipedia.org/wiki/2017%E2%80%9318_Arsenal_F.C._season" target="_blank"><div style="text-align:center"><font color="black">Season 2017-2018</font></div></a></div>
+                                </div>
+                            </div>
+                        </div><br />
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!-- Dòng 4 -->
+        <div class="panel-group">
+            <div class="row">
+                <div class="panel">
+                    <div class="col-lg-8">
+                        <br />
+                        <div>© Copyright no one at all. Go to town.</div>
+                    </div><br />
+                    <div class="col-lg-1"><a href="https://accounts.google.com/AccountChooser/identifier?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AddSession" target="_blank"><div style="text-align:center"><font color="black">email</font></div></a></div>
+                    <div class="col-lg-1"><a href="https://www.facebook.com/" target="_blank"><div style="text-align:center"><font color="black">facebook</font></div></a></div>
+                    <div class="col-lg-1"><a href="https://twitter.com/?lang=vi" target="_blank"><div style="text-align:center"><font color="black">twitter</font></div></a></div>
+                    <div class="col-lg-1"><a href="https://www.instagram.com/" target="_blank"><div style="text-align:center"><font color="black">instagram</font></div></a></div>
+                </div>
+            </div><br />
+        </div>
+    </div>
+</body>
+</html>
